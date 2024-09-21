@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\WebAppDia04.props" />
+</Project>
