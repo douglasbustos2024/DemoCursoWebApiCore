@@ -45,5 +45,5 @@ jobs:
         shell: powershell
         run: |
           .\.sonar\scanner\dotnet-sonarscanner begin /k:"douglasbustos2024_DemoCursoWebApiCore" /o:"douglasbustos2024" /d:sonar.token="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
-          dotnet build DemoCursoWebApiCore/WebAppDia05/WebAppApIArq.sln
+          dotnet build WebAppDia05/WebAppApIArq.sln
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
